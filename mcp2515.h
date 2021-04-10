@@ -64,6 +64,53 @@
 #define MCP_8MHz_5kBPS_CFG3 (0x87)
 
 /*
+ *  speed 12M
+ */
+#define MCP_12MHz_1000kBPS_CFG1 (0x00)
+#define MCP_12MHz_1000kBPS_CFG2 (0x88)
+#define MCP_12MHz_1000kBPS_CFG3 (0x01)
+
+#define MCP_12MHz_500kBPS_CFG1 (0x00)
+#define MCP_12MHz_500kBPS_CFG2 (0x9B)
+#define MCP_12MHz_500kBPS_CFG3 (0x02)
+
+#define MCP_12MHz_250kBPS_CFG1 (0x01)
+#define MCP_12MHz_250kBPS_CFG2 (0x9B)
+#define MCP_12MHz_250kBPS_CFG3 (0x02)
+
+#define MCP_12MHz_200kBPS_CFG1 (0x01)
+#define MCP_12MHz_200kBPS_CFG2 (0xA4)
+#define MCP_12MHz_200kBPS_CFG3 (0x03)
+
+#define MCP_12MHz_125kBPS_CFG1 (0x00)
+#define MCP_12MHz_125kBPS_CFG2 (0x02)
+#define MCP_12MHz_125kBPS_CFG3 (0xAC)
+
+#define MCP_12MHz_100kBPS_CFG1 (0x02)
+#define MCP_12MHz_100kBPS_CFG2 (0xB6)
+#define MCP_12MHz_100kBPS_CFG3 (0x04)
+
+#define MCP_12MHz_83k3BPS_CFG1 (0x03)
+#define MCP_12MHz_83k3BPS_CFG2 (0xAD)
+#define MCP_12MHz_83k3BPS_CFG3 (0x04)
+
+#define MCP_12MHz_80kBPS_CFG1 (0x04)
+#define MCP_12MHz_80kBPS_CFG2 (0xA4)
+#define MCP_12MHz_80kBPS_CFG3 (0x03)
+
+#define MCP_12MHz_50kBPS_CFG1 (0x05)
+#define MCP_12MHz_50kBPS_CFG2 (0xB6)
+#define MCP_12MHz_50kBPS_CFG3 (0x04)
+
+#define MCP_12MHz_40kBPS_CFG1 (0x09)
+#define MCP_12MHz_40kBPS_CFG2 (0xA4)
+#define MCP_12MHz_40kBPS_CFG3 (0x03)
+
+#define MCP_12MHz_33k3BPS_CFG1 (0x08)
+#define MCP_12MHz_33k3BPS_CFG2 (0xB6)
+#define MCP_12MHz_33k3BPS_CFG3 (0x04)
+
+/*
  *  speed 16M
  */
 #define MCP_16MHz_1000kBPS_CFG1 (0x00)
@@ -172,6 +219,7 @@
 enum CAN_CLOCK {
     MCP_20MHZ,
     MCP_16MHZ,
+    MCP_12HZ,
     MCP_8MHZ
 };
 
